@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void swap_max(int a[], int b, int c) {
-    int d = 0;
+    int d = a[c];
     int e=0;
     for (int i=c; i<b; i++) {
         if (a[i] > d) {
